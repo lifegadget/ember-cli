@@ -7,7 +7,7 @@ RUN apt-get update \
 
 # install npm deps
 RUN npm install -g bower
-RUN npm install -g ember-cli@2.5.1
+RUN npm install -g ember-cli@2.6.2
 
 # install watchman
 RUN git clone https://github.com/facebook/watchman.git \

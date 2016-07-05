@@ -3,7 +3,7 @@ MAINTAINER Ken Snyder <ken@ken.net>
 
 # install npm deps
 RUN npm install -g bower
-RUN npm install -g ember-cli@2.5.1
+RUN npm install -g ember-cli@2.6.2
 
 # configure container
 EXPOSE 4200 35729
