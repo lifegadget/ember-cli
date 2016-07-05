@@ -1,0 +1,19 @@
+{
+  "name": "@lifegadget/ember-cli",
+  "version": "1.0.0",
+  "description": "a container for running Ember-CLI in development environments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lifegadget/ember-cli.git"
+  },
+  "author": "Ken Snyder <ken@ken.net> (http://ken.net/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lifegadget/ember-cli/issues"
+  },
+  "homepage": "https://github.com/lifegadget/ember-cli#readme"
+}
