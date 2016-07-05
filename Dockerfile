@@ -7,7 +7,7 @@ RUN apt-get update \
 
  # install npm deps
  RUN npm install -g phantomjs@1.9.19
- RUN npm install -g ember-cli@2.4.3 \
+ RUN npm install -g ember-cli@1.13.15 \
   && npm install -g bower@1.7.9
 
 # install watchman
