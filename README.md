@@ -8,7 +8,7 @@ This container has various build labels that are differentiated by three charact
 1. Standard build (includes watchman but not phantomJS)
 2. PhantomJS 1.x (same as standard but adds PhantomJS 1.x)
 3. PhantomJS 2.x (same as standard but adds PhantomJS 2.x)
-4. Lite (only ember-cli essentials, no watchman, no phantom)
+4. Lite (only ember-cli essentials, no watchman, no phantom, uses alpine-node baseline image ... roughly 5x smaller)
 
 Each of these builds is available as:
 

@@ -6,7 +6,7 @@ RUN apt-get update \
  && apt-get install -y python-dev
 
 # install npm deps
-RUN npm install -g bower@1.7.9
+RUN npm install -g bower
 RUN npm install -g ember-cli@1.13.15
 
 # install watchman

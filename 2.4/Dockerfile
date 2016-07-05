@@ -6,9 +6,8 @@ RUN apt-get update \
  && apt-get install -y python-dev
 
 # install npm deps
-RUN npm install -g phantomjs2 \
- && npm install -g bower
-RUN npm install -g ember-cli@1.13.15
+RUN npm install -g bower
+RUN npm install -g ember-cli@2.4.3
 
 # install watchman
 RUN git clone https://github.com/facebook/watchman.git \
