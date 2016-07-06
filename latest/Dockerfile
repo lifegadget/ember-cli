@@ -1,4 +1,4 @@
-FROM node:4.4.7
+FROM mhart/alpine-node-auto:6.2.2
 MAINTAINER Ken Snyder <ken@ken.net>
 
 # install OS deps
