@@ -8,7 +8,7 @@ This container has various build labels that are differentiated by three charact
 1. Standard build (includes watchman but not phantomJS)
 2. PhantomJS 1.x (same as standard but adds PhantomJS 1.x)
 3. PhantomJS 2.x (same as standard but adds PhantomJS 2.x)
-4. Lite (only ember-cli essentials, no watchman, no phantom, uses alpine-node baseline image ... roughly 5x smaller)
+4. Lite (only ember-cli essentials, no watchman, no phantom, uses alpine-node baseline image ... much smaller)
 
 Each of these builds is available as:
 
@@ -17,3 +17,7 @@ Each of these builds is available as:
   - _latest_ will get you the latest release (including beta release cycles)
 
 Furthermore, if you want a labelled release of something other than standard build then add a valid postfix: ['-phantom-1', 'phantom-2', '-lite'].
+
+> For the specific tags available always refer to the "Tags" section in DockerHub: [link](https://hub.docker.com/r/lifegadget/ember-cli/tags/)
+
+## dd

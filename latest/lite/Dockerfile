@@ -8,5 +8,4 @@ RUN npm install -g ember-cli@2.7.0-beta.4
 # configure container
 EXPOSE 4200 35729
 WORKDIR /app
-ENTRYPOINT ["/usr/local/bin/ember"]
-CMD ["serve"]
+CMD ['ember', 'serve']

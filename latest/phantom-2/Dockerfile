@@ -22,5 +22,4 @@ RUN git clone https://github.com/facebook/watchman.git \
 # configure container
 EXPOSE 4200 35729
 WORKDIR /app
-ENTRYPOINT ["/usr/local/bin/ember"]
-CMD ["serve"]
+CMD ['ember', 'serve']
